@@ -3,8 +3,8 @@
 ## Les contributeurs 
 
 [Marina](https://github.com/marinasvn)    
-[Olivier](https://github.com/oliviernchima)   
 [Maxime](https://github.com/Mdelcham)   
+[Olivier](https://github.com/oliviernchima)   
 
 
 ## Les Consignes
