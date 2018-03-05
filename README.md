@@ -2,8 +2,8 @@
 
 ## Les contributeurs 
 
-*[Olivier](https://github.com/oliviernchima) . 
-*[Maxime](https://github.com/Mdelcham) . 
+[Olivier](https://github.com/oliviernchima)   
+[Maxime](https://github.com/Mdelcham)   
 
 
 ## Les Consignes
