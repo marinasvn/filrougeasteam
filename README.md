@@ -34,6 +34,10 @@ Création d'un blog lié au site de base, ce blog devra comprendre un coté admi
 
 Réalisé au sein de la formation [Becode](http://www.becode.org/).
 
+## Site vitrine
+
+(https://mdelcham.github.io/filrouge/)
+
 ## Site d'origine
 
 [Repair Café Schaerbeek](https://sites.google.com/site/repaircafeschaerbeek/fr)
