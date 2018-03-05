@@ -2,13 +2,13 @@
 
 ## Les contributeurs 
 
-[Olivier](https://github.com/oliviernchima)
-[Maxime](https://github.com/Mdelcham)
+*[Olivier](https://github.com/oliviernchima)
+*[Maxime](https://github.com/Mdelcham)
 
 
 ## Les Consignes
 
-* [consignes détaillées de la phase de groupe](https://github.com/becodeorg/Swartz-promo-3/blob/master/Projects/filrougeasteam.md)
+[consignes détaillées de la phase de groupe](https://github.com/becodeorg/Swartz-promo-3/blob/master/Projects/filrougeasteam.md)
 
 ## Contexte
 
