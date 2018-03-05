@@ -36,7 +36,7 @@ Réalisé au sein de la formation [Becode](http://www.becode.org/).
 
 ## Site vitrine
 
-(https://mdelcham.github.io/filrouge/)
+https://mdelcham.github.io/filrouge/
 
 ## Site d'origine
 
