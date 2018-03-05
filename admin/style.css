@@ -1,0 +1,90 @@
+.adminContainer {
+    display: flex;
+}
+
+#left {
+   /* border: 1px solid green;*/
+    width: 30%;
+}
+#right {
+    border: 1px solid red;
+    width: 70%;
+}
+#addUserForm {
+    display: none;
+    border: 1px solid green;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#connectForm {
+    display: none;
+    border: 1px solid green;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.titleForm p {
+    padding: 0; margin:0;
+    width: auto;
+}
+ 
+
+form {
+    margin-top: 10px;
+}
+
+.titleForm {
+      display: flex;
+      justify-content: space-between;
+}
+
+article {
+    width: 300px;
+    height: auto;
+}       
+
+article img {
+    width: 100%;
+}
+
+.text {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 0.7rem;
+}
+
+/*-----------------------*/
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
