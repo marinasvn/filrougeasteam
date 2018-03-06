@@ -156,5 +156,90 @@
 
   </div>
 
+
+  <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $(document).ready(function() {
+      $("#q1").click(function() {
+          $( "#r1" ).toggle( "blind", 500 );
+        });
+    });
+    $(document).ready(function() {
+      $("#q2").click(function() {
+          $( "#r2" ).toggle( "blind", 500 );
+        });
+    });
+    $(document).ready(function() {
+      $("#q3").click(function() {
+          $( "#r3" ).toggle( "blind", 500 );
+        });
+    });
+    $(document).ready(function() {
+      $("#q4").click(function() {
+          $( "#r4" ).toggle( "blind", 500 );
+        });
+    });
+    $(document).ready(function() {
+      $("#q5").click(function() {
+          $( "#r5" ).toggle( "blind", 500 );
+        });
+    });
+    $(document).ready(function() {
+      $("#q6").click(function() {
+          $( "#r6" ).toggle( "blind", 500 );
+        });
+    });
+    $(document).ready(function() {
+      $("#q7").click(function() {
+          $( "#r7" ).toggle( "blind", 500 );
+        });
+    });
+    $(document).ready(function() {
+      $("#q8").click(function() {
+          $( "#r8" ).toggle( "blind", 500 );
+        });
+    });
+    $(document).ready(function() {
+      $("#q9").click(function() {
+          $( "#r9" ).toggle( "blind", 500 );
+        });
+    });
+    $(document).ready(function() {
+      $("#q10").click(function() {
+          $( "#r10" ).toggle( "blind", 500 );
+        });
+    });
+    </script>
+    <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
 </body>
 </html>
