@@ -18,9 +18,15 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $(".edit").click(function() {
-         var clicked = $(this).parent().closest('article');
-         clicked.css('display','none');
-        $(this).parent().find(".hidden").css('display','block');
-
+         var clicked = $(this).parent('.article').find('article:first-child');
+          clicked.css('display','none');
+         $(this).css('display','none');
+        
+         $(this).parent('.article').find('article:last-child').css('display', 'block');
      });
 });
+
+
+
+
+
