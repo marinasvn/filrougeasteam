@@ -1,0 +1,88 @@
+#one{
+	background: #7F2927;
+}
+
+#one p, #one h2{
+	color: white;
+}
+
+#three{
+	background: #CC423F;
+}
+
+#fourth{
+	background: #7F4E4D;
+}
+
+
+#r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8, #r9, #r10{
+	display: none;
+	margin-bottom: 0;
+	color: white;
+}
+#myDropdown{
+	color: black;
+}
+
+#FAQ{
+	border: 5px solid white;
+}
+
+#fifth{
+	background: #CC413F;
+}
+
+#CONTACT input{
+	color: black;
+}
+
+@media screen and (max-width: 736px){
+	#three img{
+		width: 300px;
+		margin: 0;
+	}
+}
+
+
+/*blog.php*/
+
+.container-fluid{
+	padding : 0;
+	color: black;
+}
+
+h1{
+  font-family: 'Fjalla One', sans-serif;
+	color: black;
+}
+
+h2{
+color: white;	
+}
+
+#first-row{
+  background-color: #171C21;
+}
+
+#first-card-bgcolor {
+  background-color: #171C21;
+  color: white;
+}
+
+#second-row {
+  background-color: #7F2927;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#third-row{
+  background-color: #2E3842;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#last-row{
+  background-color: black;
+  color: white;
+
+}

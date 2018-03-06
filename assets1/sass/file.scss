@@ -1,0 +1,37 @@
+@import 'font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
+
+.container-fluid{
+  background-color: #B63B38;
+}
+
+h1{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#first-row{
+  background-color: #171C21;
+}
+
+#first-card-bgcolor {
+  background-color: #171C21;
+  color: white;
+}
+
+#second-row {
+  background-color: #7F2927;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#third-row{
+  background-color: #2E3842;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#last-row{
+  background-color: black;
+  color: white;
+
+}
