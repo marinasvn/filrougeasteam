@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 07, 2018 at 03:35 PM
+-- Generation Time: Mar 07, 2018 at 04:17 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -39,11 +39,11 @@ CREATE TABLE `categorie` (
 
 INSERT INTO `categorie` (`id_categorie`, `name`) VALUES
 (1, 'Couture'),
-(2, 'Informatique'),
 (3, 'Electronique'),
 (4, 'Bois'),
 (5, 'VÃ©lo-mÃ©canique'),
-(6, 'Divers');
+(6, 'Divers'),
+(7, 'Informatique');
 
 -- --------------------------------------------------------
 
@@ -88,7 +88,6 @@ CREATE TABLE `post_categorie` (
 --
 
 INSERT INTO `post_categorie` (`id_post`, `id_categorie`) VALUES
-(25, 2),
 (25, 3),
 (26, 3),
 (26, 6),
@@ -99,7 +98,6 @@ INSERT INTO `post_categorie` (`id_post`, `id_categorie`) VALUES
 (29, 3),
 (29, 5),
 (29, 6),
-(30, 2),
 (30, 6);
 
 -- --------------------------------------------------------
@@ -162,7 +160,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `categorie`
 --
 ALTER TABLE `categorie`
-  MODIFY `id_categorie` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_categorie` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `post`

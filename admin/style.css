@@ -120,15 +120,28 @@ input[type='submit'] {
     border: 0;
 }
 
-.fa-pencil-alt {
+.fa-pencil-alt, .fa-trash-alt {
     color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
 }
 
+.hiddenFormCat {
+    display: none;
+}
 
+.deleteCat {
+    position: absolute;
+    z-index: 999;
+    width: 30px;
+    opacity: 0;
+    height: 10px;
+}
 
-
-
-
+form.deleteCatForm {
+    width: 40px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 
 

@@ -35,9 +35,11 @@
         <?php
            $req = $dbc->query('SELECT * FROM categorie');
                 foreach ($req as $cat) {
-                    echo $cat['name']."<br/>";
+                    echo "<div>".$cat['name']."<a class='editCat'><i class='fas fa-pencil-alt'></i></a><form action='./traitement/traitementDeleteCat.php?id_cat=".$cat['id_categorie']."' method='post' class='deleteCatForm'><input type='submit' name='submit' value='' class='deleteCat'><i class='far fa-trash-alt'></i></form><form action='./traitement/traitementModifyCat.php?id_cat=".$cat['id_categorie']."' method='post' class='hiddenFormCat'><input type='text' name='newCat' placeholder='".$cat['name']."' /><br/><input type='submit' name='submit' value='ok'></form></div><br/>";
                 }
         ?>
+        <br/>
+        <br/>
     </div>
     </div>
 </div>

@@ -27,11 +27,13 @@ $(document).ready(function() {
 });
 
 
-/*$(document).ready(function() {
+$(document).ready(function() {
     $(".editCat").click(function() {
+        var clicked = $(this).parent('div').find('.hiddenFormCat');
+        clicked.css('display','block');
         
     });
-});*/
+});
 
 
 

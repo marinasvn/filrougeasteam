@@ -1,26 +1,23 @@
 <?php
+
     // connect to database
 
     require './DBconnection.php';
 
 
-    // get the categorie name
-
-    $catModif = $_POST['newCat'];
+    // get the categorie id
     $id_cat = $_GET['id_cat'];
 
 
     // insert it in database
 
-    $req = $dbc->prepare("UPDATE categorie SET name = '".$catModif."' WHERE id_categorie = '".$id_cat."'");
+    $req = $dbc->prepare('DELETE FROM categorie WHERE id_categorie = '.$id_cat.' ');
     
     $req->execute();
 
 
 
 header('location: ../admin.php?pageCharger=./include/connected');
-
-
 
 
 
