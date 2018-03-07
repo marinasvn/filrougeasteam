@@ -1,4 +1,7 @@
 <div id="left">
+   <div id="functions">
+       
+   
     <?php
              include './include/nav-connected.php';
     ?> 
@@ -26,7 +29,17 @@
         <input type="text" name="categorie" placeholder="categorie"><br/>
         <input type="submit" name="submit" value="Add">
     </form>
-
+    
+    <div id="modifyCat">
+       <h2>Modify ou delete a categorie</h2>
+        <?php
+           $req = $dbc->query('SELECT * FROM categorie');
+                foreach ($req as $cat) {
+                    echo $cat['name']."<br/>";
+                }
+        ?>
+    </div>
+    </div>
 </div>
 
 

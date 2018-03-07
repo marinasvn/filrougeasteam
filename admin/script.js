@@ -27,6 +27,13 @@ $(document).ready(function() {
 });
 
 
+/*$(document).ready(function() {
+    $(".editCat").click(function() {
+        
+    });
+});*/
+
+
 
 
 

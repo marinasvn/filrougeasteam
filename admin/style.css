@@ -17,6 +17,11 @@ body {
     padding: 20px 20px;
     position: fixed;
     top: 0;
+    overflow-y: scroll;
+}
+
+#functions {
+    height: auto;
 }
 
 #right {
@@ -108,11 +113,16 @@ textarea {
     height: 150px;
 }
 
-input['type=submit'] {
+input[type='submit'] {
     background-color: #BE4C45;
+    color: #fff;
+    padding: 10px;
+    border: 0;
 }
 
-
+.fa-pencil-alt {
+    color: rgba(0, 0, 0, 0.5);
+}
 
 
 
