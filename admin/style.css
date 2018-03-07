@@ -1,15 +1,36 @@
+body {
+    background-color: #1E2329;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .adminContainer {
     display: flex;
 }
 
 #left {
    /* border: 1px solid green;*/
-    width: 30%;
+    width: 20%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
 }
+
 #right {
-    border: 1px solid red;
-    width: 70%;
+   /* border: 1px solid red;*/
+    width: 75%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
 }
+
 #addUserForm {
     display: none;
     border: 1px solid green;
@@ -45,6 +66,14 @@ form {
       justify-content: space-between;
 }
 
+.article {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+
 article {
     width: 300px;
     height: auto;
@@ -74,9 +103,14 @@ article img {
     cursor: pointer;
 }
 
+textarea {
+    width: 319px;
+    height: 150px;
+}
 
-
-
+input['type=submit'] {
+    background-color: #BE4C45;
+}
 
 
 

@@ -5,8 +5,8 @@
     <br/>
     <form action="./traitement/traitementAddPost.php" method="post" enctype="multipart/form-data">
        <h2>Add a new post</h2>
-        <input type="text" name="title" placeholder="title"><br/>
-        <textarea name="text" placeholder="text of post"></textarea><br/>
+        <input type="text" name="title" placeholder="title"><br/><br/>
+        <textarea name="text" placeholder="text of post"></textarea><br/><br/>
         <input type="file" name="file"><br/><br/>
         
         <h3>Categories</h3>
@@ -40,7 +40,7 @@
         $req = $dbc->query('SELECT * FROM post INNER JOIN user ON user.id_user = post.user_id WHERE user.id_user = '.$user_id.'');
         
         foreach ($req as $post) {
-           echo "<div class='article'><article><img src='./img/".$post['img']."' /><h2>".$post['title']."</h2><p class='text'>".$post['text']."</p><p class='categorie'>";
+           echo "<div class='article'><article><img src='../assets/images/".$post['img']."' /><h2>".$post['title']."</h2><p class='text'>".$post['text']."</p><p class='categorie'>";
             
             $req = $dbc->query('SELECT name FROM categorie INNER JOIN post_categorie ON post_categorie.id_categorie = categorie.id_categorie INNER JOIN post ON post.id_post = post_categorie.id_post WHERE post.id_post = '.$post['id_post'].'');
             foreach ($req as $cat) {

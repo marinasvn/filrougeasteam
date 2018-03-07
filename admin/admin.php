@@ -10,6 +10,7 @@
     <title>ADMIN</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
   <div class="adminContainer">
