@@ -68,7 +68,7 @@
             
                $req = $dbc->query('SELECT name FROM categorie');
                 foreach ($req as $cat) {
-                    echo "<input type='checkbox' value='".$cat['name']."'>".$cat['name']."<br/>";
+                    echo "<input type='checkbox' name='categorie[]' value='".$cat['name']."'>".$cat['name']."<br/>";
                 }
             
             
