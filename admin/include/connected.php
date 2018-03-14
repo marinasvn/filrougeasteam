@@ -62,13 +62,13 @@
                     echo $cat['name']." ";
                 }
             
-            
+
             echo "</p><p class='date'>".$post['date']."</p><p class='auteur'>".$post['prenom']." ".$post['nom']."</p></article><a class='edit'><i class='fas fa-pencil-alt'></i> EDIT THIS POST </a><form method='post' action='./traitement/traitementDeletePost.php?id_post=".$post['id_post']."'><input type='submit' name='submit' value=' ' class='deleteButton' /><a class='delete'><i class='fas fa-trash'></i> DELETE THIS POST </a></form><article class='hidden'><form method='post' action='./traitement/traitementUpdatePost.php' enctype='multipart/form-data'><input type='text' name='title' value='".$post['title']."'><br/><textarea name='text' />".$post['text']."</textarea><br/><input type='file' name='file' /><br/><br/><h3>Categories</h3>";
             
             
-               $req = $dbc->query('SELECT name FROM categorie');
-                foreach ($req as $cat) {
-                    echo "<input type='checkbox' value='".$cat['name']."'>".$cat['name']."<br/>";
+               $reqCat = $dbc->query('SELECT * FROM categorie');
+                foreach ($reqCat as $cat) {
+                    echo "<input type='checkbox' name='categorie[]' value='".$cat['name']."'>".$cat['name']."<br/>";
                 }
             
             
